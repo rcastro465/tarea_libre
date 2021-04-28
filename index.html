@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/movil.css" media="(min-width: 100px) and (max-width:400px)">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 401px) and (max-width:1023px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Gimnasios</title>
+<script src="funciones/funciones.js"></script>
+</head>
+<body>
+    <!--inicio del menu-->
+<nav class="menu">
+    <lu class="lista">
+        <li class="item-1"><img src="multimedia/logo.png" class="logo"></li>
+        <li class="item-2"><p class="menu-p">Club</p></li>
+        <li class="item-3"><p class="menu-p">Clases</p></li>
+        <li class="item-4"><p class="menu-p">Personal Trainer</p></li>
+        <li class="item-5"><p class="menu-p">Convenio Empresas</p></li>
+        <li class="item-6"><p class="menu-p">Nosotros</p></li>
+        <li class="item-7"><button class="sumate" onclick="alert ('pagina web en construccion')" value="botonazo"><p class="p-sumate">Sumate!</p></button></li>
+        <li class="item-8"><img src="multimedia/login.png" class="icono" onclick="alert ('Acceso inhabilitado temporalmente')"></li>
+        <li class="item-9"><img src="multimedia/cesta-de-la-compra.png" class="icono" onclick="alert ('Canasta de compra vacia')"></li>
+       </lu>
+</nav>
+    <!--fin del menu-->
+
+<!--INICIO menu MOBILE-->
+<header class="header">
+    <div class="container">
+    <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+    </div>
+        <div class="logo">
+            <h1>Club House</h1>
+        </div>
+        
+    </div>
+</header>
+
+<!--	--------------->
+<input type="checkbox" id="btn-menu" class="checker">
+<div class="container-menu">
+<div class="cont-menu">
+    <nav>
+       
+        <a href="#">Club</a>
+        <a href="#">Clases</a>
+        <a href="#">Personal Trainer</a>
+        <a href="#">Convenio Empresas</a>
+        <a href="#">Sumate</a>
+        <a href="#">Login</a>
+    </nav>
+    <label for="btn-menu">✖️</label>
+</div>
+</div>
+
+
+<!--fin menu MOBILE-->
+
+
+<!--inicio del carrusel-->
+<div class="container">
+<ul class="slider">
+<li class="li-slider" id="slide1">
+    <img src="multimedia/carrusel-5.jpg" class="carrusel">
+
+</li>
+<li class="li-slider" id="slide2">
+    <img src="multimedia/slide3.jpg" class="carrusel">
+
+</li>
+<li class="li-slider" id="slide3">
+    <img src="multimedia/slide2.png" class="carrusel">
+
+</li>
+<li class="li-slider" id="slide4">
+    <img src="multimedia/slide.png" class="carrusel">
+
+</li>
+<li class="li-slider" id="slide5">
+    <img src="multimedia/corp_observa.jpg" class="carrusel">
+
+</li>
+
+</ul>
+
+<ul class="menu-slide">
+<li>
+    <a href="#slide1">1</a>
+</li>
+
+<li>
+    <a href="#slide2">2</a>
+</li>
+<li>
+    <a href="#slide3">3</a>
+</li>
+<li>
+    <a href="#slide4">4</a>
+</li>
+<li>
+    <a href="#slide5">5</a>
+</li>
+
+</ul>
+
+</div>
+
+<!--fin del carrusel-->
+
+<div class="dia-gratis">
+    <p class="parrafo-gratis">OBTÉN TU DIA DE GIMNASIO COMPLETAMENTE GRATIS <a class="aqui" href="#">AQUÍ</a></p>
+</div>
+<h2 class="subtitulos">CONOCE CLUB HOUSE GYM</h2>
+<!--INICIO SERVICIOS 1-->
+<section class="servicios-1">
+<div class="serv1"><img class="serv-fotos" src="multimedia/sala.jpg"></div>
+<div class="serv1"><img class="serv-fotos" src="multimedia/maquinas.jpg"></div>
+<div class="serv1"><img class="serv-fotos" src="multimedia/crossfit.jpg"></div>
+</section>
+<!--FIN SERVICIOS 1-->
+
+<!--INICIO SERVICIOS 2-->
+<section class="servicios-2">
+    <div class="serv2"><img class="serv-fotos" src="multimedia/cardio.jpg"></div>
+    <div class="serv2"><img class="serv-fotos" src="multimedia/lockers.jpg"></div>
+    <div class="serv2"><img class="serv-fotos" src="multimedia/camarinos.jpg"></div>
+</section>
+<!--FIN SERVICIOS 2-->
+
+<!--INICIO TESTIMONIOS-->
+<h2 class="subtitulos">TESTIMONIOS CLIENTES CLUB HOUSE GYM</h2>
+<section class="testimonios">
+    <div class="test"><img class="test1" src="multimedia/test4.png"><p class="testi">Lo bueno de poder entrenar en Club House Gym, es que prepara mi cuerpo para poder resistir las cargas de entrenamiento en patinaje y eso también me ayuda a prevenir las lesiones.</p><p class="nombres">Cristina Tapia</p></div>
+    <div class="test"><img class="test1" src="multimedia/test2.jpg"><p><br></p><p class="testi">Club House Gym me a ayuda con mi autoestima día a día, poder sentirme bien ya sea físicamente y mentalmente.</p><br><p class="nombres">Claudia Barrios</p></div>
+    <div class="test"><img class="test1" src="multimedia/test3.jpg"><p><br></p><p class="testi">He logrado más movilidad, más fuerza, más estabilidad y lo que necesito básicamente para la vida diaria y por eso Club House Gym es clave en mi vida.</p><p class="nombres">Rodrigo Castro</p></div>
+</section>
+<!--FIN TESTIMONIOS-->
+<!--INICIO PLANES-->
+<h2 class="subtitulos">ELIGE TU PLAN</h2>
+<section class="planes">
+<div class="planes-1">
+   <p class="titulo-plan">Plan Pro</p> 
+   <p class="desde-1">Desde $20.000</p>
+   <hr>
+   <p class="text-p">Entrena en cuaquiera de nuestras sucursales</p>
+   <p class="benef">Beneficios</p>
+   <ul>
+       <li class="list-benef">Acceso ilimitado</li>
+       <li class="list-benef">Acceso a cualquier sede en todo el pais</li>
+       <li class="list-benef">Matrícula Gratis</li>
+       <li class="list-benef">Congelamiento por 60 días</li>
+   </ul>
+   <button class="boton-plan" onclick="alert ('Plan Pro añadido a la canasta de compras')">Inscríbete Ahora</button>
+</div>
+<div class="planes-2">
+    <p class="titulo-plan">Plan Básico</p> 
+    <p class="desde-2">Desde $15.000</p>
+    <hr>
+    <p class="text-p">Entrena en cuaquiera de nuestras sucursales</p>
+    <p class="benef">Beneficios</p>
+    <ul>
+        <li class="list-benef">Acceso ilimitado a tu sede</li>
+        <li class="list-benef">Congelamiento por 15 días</li>
+        <li class="list-benef">Matrícula Gratis</li>
+    </ul>
+    <button class="boton-plan" onclick="alert ('Plan Basico añadido a la canasta de compras')">Inscríbete Ahora</button>
+ </div>
+
+
+</section>
+
+
+<!--FIN PLANES-->
+
+
+<!--INICIO DIA GRATIS-->
+<div class="dia-gratis">
+    <p class="parrafo-gratis">AGENDA TU VISITA POR PROTOCOLOS SANITARIOS COVID 19 <a class="aqui" href="#">AQUÍ</a></p>
+</div>
+<!--FIN DIA GRATIS-->
+
+<!-- inicio video-->
+<video class="video" src="multimedia/video-gym.mp4" muted autoplay loop ></video>
+<!--fin video-->
+
+
+<!--inicio formulario-->
+<h2 >Contacto</h2>
+
+<form class="formulario">
+  <fieldset>  
+      <legend>Nos comunicaremos con usted a la brevedad...</legend>
+      
+<label class="label">Nombre*</label> <input type="text" class="texto" id="nombre" onchange="ValidaNombre()" maxlength="" required placeholder="Ingrese su Nombre">
+<p id="msgNombre"></p>
+<label class="label">Correo*</label><input type="email" class="email" id="correo" onchange="ValidarCorreo()" required placeholder="Ingrese su Email">
+<p id="msgCorreo" class="error"></p>
+<label class="label">Número Telefonico*</label><input type="tel" id="telefono"  onchange="Validatelefono()" required class="telefono" maxlength="8" placeholder="Ingrese su Telefono">
+<p id="msgtelefono" class="error"></p>
+<input type="submit" value="Contáctanos" class="boton" onclick="validateform()">
+</fieldset>
+</form>
+<!--fin formulario-->
+
+<!--INICIO FOOTER-->
+    <footer class="pie">
+   <a href="#" class="rss"><img src="multimedia/facebook.png" class="rrss"></a> 
+    <a href="#" class="rss"><img src="multimedia/instagram.png" class="rrss"></a>
+    <a href="#" class="rss"><img src="multimedia/gorjeo.png" class="rrss"></a>
+    <a href="#" class="rss"><img src="multimedia/logo.png" class="footer"></a>
+    <p><h6> Club House GYM 2021 ©</h6></p>
+</footer>
+<!--FIN FOOTER-->
+
+</body>
+</html>
